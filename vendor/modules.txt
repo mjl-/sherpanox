@@ -1,7 +1,7 @@
-# bitbucket.org/mjl/httpasset v0.0.4
-bitbucket.org/mjl/httpasset
 # github.com/flynn/noise v0.0.0-20180327030543-2492fe189ae6
 github.com/flynn/noise
+# github.com/mjl-/httpasset v0.0.6
+github.com/mjl-/httpasset
 # github.com/mjl-/nox v0.0.0-20190519172650-08fde82ddb7b
 github.com/mjl-/nox
 github.com/mjl-/nox/noxhttp
