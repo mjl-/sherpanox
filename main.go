@@ -10,25 +10,18 @@ import (
 	"os"
 	"strings"
 
-	"bitbucket.org/mjl/httpasset"
+	"github.com/mjl-/httpasset"
 	"github.com/mjl-/nox"
 	"github.com/mjl-/sherpa"
 	"github.com/mjl-/sherpadoc"
 )
 
 var (
-	httpFS  http.FileSystem
+	httpFS = httpasset.Init("assets")
 	version = "dev"
 	address = flag.String("address", "localhost:1047", "nox-extended address to serve sherpanox on")
 )
 
-func init() {
-	httpFS = httpasset.Fs()
-	if err := httpasset.Error(); err != nil {
-		log.Println("falling back to local assets:", err)
-		httpFS = http.Dir("assets")
-	}
-}
 
 func check(err error, action string) {
 	if err != nil {
