@@ -17,11 +17,10 @@ import (
 )
 
 var (
-	httpFS = httpasset.Init("assets")
+	httpFS  = httpasset.Init("assets")
 	version = "dev"
 	address = flag.String("address", "localhost:1047", "nox-extended address to serve sherpanox on")
 )
-
 
 func check(err error, action string) {
 	if err != nil {

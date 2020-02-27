@@ -1,6 +1,6 @@
 # github.com/flynn/noise v0.0.0-20180327030543-2492fe189ae6
 github.com/flynn/noise
-# github.com/mjl-/httpasset v0.0.6
+# github.com/mjl-/httpasset v0.0.9
 github.com/mjl-/httpasset
 # github.com/mjl-/nox v0.0.0-20200226171546-ad2740095402
 github.com/mjl-/nox
