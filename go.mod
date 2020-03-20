@@ -1,4 +1,4 @@
-module sherpanox
+module github.com/mjl-/sherpanox
 
 go 1.12
 
